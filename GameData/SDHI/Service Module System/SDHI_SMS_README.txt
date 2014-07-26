@@ -1,11 +1,11 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	1.9	(KSP 0.23.5)
+Version:	2.0	(KSP 0.24.x)
 
-Author: 	Robin "sumghai" Chang	techadv@alphacompanyforums.com
+Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
-License:	Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
-		http://www.creativecommons.org/licenses/by-sa/3.0/
+License:	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+		http://www.creativecommons.org/licenses/by-sa/4.0/
 
 Disclaimer:	This parts pack is for an alpha game - Use at own risk. 
 		If your computer blows up, it's not my problem.
@@ -14,10 +14,26 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
 ===Dependencies===
 
+ - AnimatedDecouplers plugin (Starwaster), for umbilical animation on decoupling
+
+ - Firespitter plugin (Snjo), for tweakable IACBM docking port guidance fin and Boost Protective Cover crew access hatch animations
+
+ - Klockheed Martian Special Parts plugin (dtobi), for self-inflating floation collar functionality
+
+ - ModuleManager plugin (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
+
  - RealChute Parachute Systems plugin (stupid_chris), for parachute functionality
 
- - Firespitter plugin (Snjo), for tweakable IACBM docking port guidance fin animations
 
+===Supported Third-Party Addons===
+
+ - Deadly Reentry Continued plugin (NathanKell) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
+
+ - Ferram Aerospace Research plugin (ferram4) - if installed, the Boost Protective Cover and Service Module Fairings will properly shield other components from aerodynamic stresses experienced during launch, reducing drag and making your rockets more efficient at getting into orbit
+
+ - HotRockets! plugin (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
+
+ - Ship Manifest plugin (Papa_Joe) and Connected Living Spaces API plugin (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
 
 
 ===How To Install===
@@ -38,7 +54,7 @@ The parts should then be located under the SDHI/Service Module System folder
 
  - This parts pack is specifically designed for use with the stock Mk1-2 Command Pod
 
- - Refer to SDHI Service Module System - User Manual.pdf included in the download for detailed instructions on assembling the service module stack for use with your launch system. (Requires Adobe Reader)
+ - For assembly and configuration instructions, refer to http://github.com/sumghai/SDHI_ServiceModuleSystem/wiki/How-to-assemble-&-configure-a-complete-SDHI-CSM-stack
 
  - No Launch Escape Systems or Escape Towers are included in this pack; either build your own using stock parts, or try the ones from KSPX or BFGfreak's Prilla LES add-ons.
 
@@ -52,10 +68,41 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.0          27 July 2014
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 0.24.x
+ - Native integration for Connected Living Space (CLS) API
+    - Parachute-equipped docking ports will allow crew passage if Ship Manifest is installed
+ - Native Deadly Reentry Continued support
+    - Heat shield will protect command pod during atmospheric reentry
+    - All other parts should burn up reliably when deorbited
+ - Native HotRockets! particle effects support for LV-909 Liquid Fuel Engine (Fairingless)
+ - Consolidated Service Module and Avionics Ring textures / subdirectories
+ - Native FAR support for Boost Protective Cover
+    - NOTE: When first installing FAR and/or SDHI, you must delete CustomFARPartClassification.cfg from your GameData\FerramAerospaceResearch\ folder in order for FAR to properly rebuild its part classification definitions to include the SDHI parts)
+ - Reduced docking port spotlight range and intensities, as they are not intended for general illumination
+ - Fixed Service Module rescaling bug that occurs on scene reload
+ - RealChutes 1.2.2.2 compatibility fix
+    - WARNING: This is a craft and save-breaking change; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Features:
+ - New Command Pod-Service Module Umbilical interface on Service Module and Avionics Ring
+    - Stock Mk1-2 Command Pod now has option to show / hide SDHI Umbilical port
+    - Umbilical will animate when decoupler is triggered
+    - Requires Starwaster's AnimatedDecouplers plugin
+ - Boost Protective Cover now has toggleable crew access hatch, compatible with FASA launch towers
+    - Opening the hatch allows Kerbals on EVA to board the command pod, while closed hatches prevent Kerbals from getting out
+ - Boost Protective Cover can now be adorned with mission flag / logo
+ - Self-inflating floatation collar built into Heat Shield
+    - Triggers automatically on splashdown to keep the pod afloat while awaiting recovery
+    - Requires dtobi's Klockheed Martian Special Parts plugins
+
 1.9          5 April 2014
 ---------------------------
 
-Changes / Fixes
+Changes / Fixes:
  - Compatibility Patch for KSP 0.23.5
  - Fixed IACBM 1.25m - Parachute version docking light colors
 
@@ -63,7 +110,7 @@ Changes / Fixes
 1.8          20 March 2014
 ---------------------------
 
-Changes / Fixes
+Changes / Fixes:
  - Reduced drag on Service Module, so that when it decouples from the Mk1-2 Command Pod just before re-entry it is less likely to bump back into it
  - Set Boost Protective Cover decoupler force to 0, as the ejection force is made redundant by the cover's own solid rocket motors
 
@@ -71,7 +118,7 @@ Changes / Fixes
 1.7          13 January 2014
 ---------------------------
 
-Changes / Fixes
+Changes / Fixes:
  - Dropped FusTek_Sumghai.DLL in favour of external dependency on Snjo's Firespitter plugin
     - You will need to download and install the latest version of Firespitter yourself
     - This change now allows the IACBM guidance fins to be tweakable within the VAB/SPH
@@ -80,7 +127,7 @@ Changes / Fixes
 1.6          24 December 2013
 ---------------------------
 
-Changes / Fixes
+Changes / Fixes:
  - Added new 0.23 EFFECTS{} for parachute sounds (stupid_chris)
  - Tweaked main parachute deployment altitude slightly; the mains will now deploy almost immediately after drogues are cut, instead of after a (decidedly terrifying) period of free-fall. 
 
