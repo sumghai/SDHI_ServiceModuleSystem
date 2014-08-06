@@ -1,5 +1,5 @@
 # SDHI Service Module System (V2.1 / 7 August 2014)
-Parts pack for Kerbal Space Program, consisting of a Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA�s Orion MPCV.
+Parts pack for Kerbal Space Program, consisting of a Service Module and accessories designed specifically for use with the stock Mk1-2 Command Pod, vaguely resembling NASA's Orion MPCV.
 
 **Author:** Robin "sumghai" Chang (grnlead@hotmail.com)
 
