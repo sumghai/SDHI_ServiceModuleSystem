@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.0	(KSP 0.24.x)
+Version:	2.1	(KSP 0.24.2)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
@@ -35,6 +35,8 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - Ship Manifest plugin (Papa_Joe) and Connected Living Spaces API plugin (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
 
+ - TAC Life Support (TaranisElsu) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
+
 
 ===How To Install===
 
@@ -68,6 +70,24 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.1          7 August 2014
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 0.24.2
+ - Native TAC Life Support compatibility
+    - Increased Mk1-2 Pod Food and Waste storage capacities
+    - Added Water, Oxygen, WasteWater and CarbonDioxide storage to Service Module
+    - Added Carbon Extractors and Water Filters to both Service Module and Avionics Ring
+    - A combined Command Pod / Service Module would thus contain up to eight Kerbin days' worth of provisions for its three crew
+ - Fixed HotRockets! patch dependency checking
+    - If HotRockets! is not installed, LV-909 Liquid Fuel Engine (Fairingless) will revert gracefully to stock effects
+ - RealChutes 1.2.4 compatibility fix
+    - SDHI TextureLibrary and ProceduralChute removed from parachute-equipped docking ports as they are no longer required
+    - Fixed missing drogue canopy texture
+    - WARNING: This is a craft and save-breaking change; it is recommended you abort / recover existing SDHI craft before installing this update
+
+
 2.0          27 July 2014
 ---------------------------
 
@@ -98,6 +118,7 @@ Features:
  - Self-inflating floatation collar built into Heat Shield
     - Triggers automatically on splashdown to keep the pod afloat while awaiting recovery
     - Requires dtobi's Klockheed Martian Special Parts plugins
+
 
 1.9          5 April 2014
 ---------------------------
