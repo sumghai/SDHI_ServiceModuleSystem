@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.1.1	(KSP 0.24.2)
+Version:	2.2	(KSP 0.24.2)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
@@ -32,6 +32,8 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
  - Ferram Aerospace Research plugin (ferram4) - if installed, the Boost Protective Cover and Service Module Fairings will properly shield other components from aerodynamic stresses experienced during launch, reducing drag and making your rockets more efficient at getting into orbit
 
  - HotRockets! plugin (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
+
+ - Node Resizer plugin (Starwaster) - if installed, will allow easier attachment of Avionics Ring part variant to heat shield in the VAB/SPH editor scenes
 
  - Ship Manifest plugin (Papa_Joe) and Connected Living Spaces API plugin (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
 
@@ -70,6 +72,17 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.2          29 August 2014
+---------------------------
+
+Changes / Fixes:
+ - Added Node Resizer support
+    - This dynamically changes the stack nodes of the Avionics Ring and Heat Shield to size 0 while in the VAB/SPH editor scenes, allowing for easier attachment (and thus fixing the "bouncing" attachment node bug)
+    - When entering the flight scene, this automatically switches the node size back to 2 to ensure a strong structural connection as usual
+ - New meshes, graphics and better details for the FusTek Karmony hatch on the IACBM parachute-equipped docking port
+    - This is for compatibility / visual consistency with future versions of FusTek Station Parts
+
+
 2.1.1        21 August 2014
 ---------------------------
 
