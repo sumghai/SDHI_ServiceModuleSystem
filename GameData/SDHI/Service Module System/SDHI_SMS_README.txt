@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.2	(KSP 0.24.2)
+Version:	2.2.1	(KSP 0.24.2)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
@@ -72,6 +72,13 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.2.1        30 August 2014
+---------------------------
+
+Changes / Fixes:
+ - Updated TAC Life Support patch for compatibility with new v0.10 version
+
+
 2.2          29 August 2014
 ---------------------------
 
