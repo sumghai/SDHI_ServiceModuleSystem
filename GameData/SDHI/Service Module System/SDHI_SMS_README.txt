@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.2.1	(KSP 0.24.2)
+Version:	2.3	(KSP 0.25.x)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
@@ -16,13 +16,11 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - AnimatedDecouplers plugin (Starwaster), for umbilical animation on decoupling
 
- - Firespitter plugin (Snjo), for tweakable IACBM docking port guidance fin and Boost Protective Cover crew access hatch animations
-
  - Klockheed Martian Special Parts plugin (dtobi), for self-inflating floation collar functionality
 
  - ModuleManager plugin (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
 
- - RealChute Parachute Systems plugin (stupid_chris), for parachute functionality
+ - Wenkel Corporation RealChute Parachute Systems plugin (stupid_chris), for parachute functionality
 
 
 ===Supported Third-Party Addons===
@@ -72,6 +70,24 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.3        10 October 2014
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 0.25.x
+ - Updated references and scaling factors in stock parts used by SDHI (such as the Fairingless LV-909 and Clamp-O-Tron Docking Port - Parachute version)
+ - Replaced FSanimateGeneric with new stock KSP ModuleAnimateGeneric
+    - IACBM fins, Boost Protect Cover hatch and Mk 1-2 Pod Umbilical Port remain toggleable in the VAB/SPH editor scenes
+    - Firespitter plugin is no longer required, and has been dropped from the list of dependencies
+ - Added fallback patch for stock parachute behaviour if RealChute is absent
+    - Note: RealChute is still the recommended default
+    - Stock parachute behaviour only deploys main chutes, and should only be used in an emergency as it may cause sudden or craft-damaging deacceleration upon deployment  
+
+Bugs/Known Issues
+ - Mk 1-2 Pod Umbilical Port is now also toggleable outside of the VAB/SPH editor scenes
+    - This is due to a limitation with the current stock KSP ModuleAnimateGeneric behaviour, but is not game-breaking.
+
+
 2.2.1        30 August 2014
 ---------------------------
 
