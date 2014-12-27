@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.3	(KSP 0.25.x)
+Version:	2.4	(KSP 0.90.0)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
@@ -14,26 +14,26 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
 ===Dependencies===
 
- - AnimatedDecouplers plugin (Starwaster), for umbilical animation on decoupling
+ - AnimatedDecouplers (Starwaster), for umbilical animation on decoupling
 
- - Klockheed Martian Special Parts plugin (dtobi), for self-inflating floation collar functionality
+ - ModuleManager (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
 
- - ModuleManager plugin (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
-
- - Wenkel Corporation RealChute Parachute Systems plugin (stupid_chris), for parachute functionality
+ - Wenkel Corporation RealChute Parachute Systems (stupid_chris), for parachute functionality
 
 
 ===Supported Third-Party Addons===
 
- - Deadly Reentry Continued plugin (NathanKell) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
+ - Deadly Reentry Continued (NathanKell / Starwaster) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
 
- - Ferram Aerospace Research plugin (ferram4) - if installed, the Boost Protective Cover and Service Module Fairings will properly shield other components from aerodynamic stresses experienced during launch, reducing drag and making your rockets more efficient at getting into orbit
+ - Ferram Aerospace Research (ferram4) - if installed, the Boost Protective Cover and Service Module Fairings will properly shield other components from aerodynamic stresses experienced during launch, reducing drag and making your rockets more efficient at getting into orbit
 
- - HotRockets! plugin (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
+ - HotRockets! (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
 
- - Node Resizer plugin (Starwaster) - if installed, will allow easier attachment of Avionics Ring part variant to heat shield in the VAB/SPH editor scenes
+ - Klockheed Martian Special Parts (dtobi / raidernick), for self-inflating floation collar functionality
 
- - Ship Manifest plugin (Papa_Joe) and Connected Living Spaces API plugin (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
+ - Node Resizer (Starwaster) - if installed, will allow easier attachment of Avionics Ring part variant to heat shield in the VAB/SPH editor scenes
+
+ - Ship Manifest (Papa_Joe) and Connected Living Spaces API (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
 
  - TAC Life Support (TaranisElsu) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
 
@@ -70,6 +70,23 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+2.4        27 December 2014
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 0.90.0
+ - Added Editor Part List Filter By Manufacturer Icon for SDHI
+ - Heat shield floatation collar powered by Klockheed Martian Special Parts now considered an optional feature instead of a depedency
+
+Bugs/Known Issues
+ - In the VAB/SPH editor scenes, When surface-attaching solar panels and other small parts to the ribbed propulsion trunk segment of the Service Module, the parts will sometimes appear to be suspended a fair distance away from the surface
+    - The problem generally occurs when angle snap is enabled, possibly due to editor scene changes in KSP 0.90.0
+    - No known fix
+ - Part testing contracts are generated in Career Mode
+    - This not intended behaviour, since the SDHI SMS is intended to be tested as a complete assembled stack rather than in piecemeal
+    - A future update might include a proper contract for testing the SDHI SMS
+
+
 2.3        10 October 2014
 ---------------------------
 
