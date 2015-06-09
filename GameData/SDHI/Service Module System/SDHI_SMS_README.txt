@@ -1,20 +1,20 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	2.4	(KSP 0.90.0)
+Version:	3.0	(KSP 1.0.x)
 
 Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
 
 License:	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-		http://www.creativecommons.org/licenses/by-sa/4.0/
+			http://www.creativecommons.org/licenses/by-sa/4.0/
 
 Disclaimer:	This parts pack is for an alpha game - Use at own risk. 
-		If your computer blows up, it's not my problem.
+			If your computer blows up, it's not my problem.
 
 
 
 ===Dependencies===
 
- - AnimatedDecouplers (Starwaster), for umbilical animation on decoupling
+ - AnimatedDecouplers (Starwaster), for umbilical animation on decoupling, as well as adding stock drag occlusion support for the Boost Protect Cover and Service Module side fairings
 
  - ModuleManager (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
 
@@ -30,8 +30,6 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
  - HotRockets! (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
 
  - Klockheed Martian Special Parts (dtobi / raidernick), for self-inflating floation collar functionality
-
- - Node Resizer (Starwaster) - if installed, will allow easier attachment of Avionics Ring part variant to heat shield in the VAB/SPH editor scenes
 
  - Ship Manifest (Papa_Joe) and Connected Living Spaces API (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
 
@@ -70,6 +68,38 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.0 - 10 June 2015
+---------------------------
+
+WARNING: This is a potentially craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.0.x
+ - The Service Module's fuel cell now uses the new stock ModuleResourceConverter system, and has the same performance as its stock standalone counterpart
+ - Stack attachment node directions have been updated to conform with 1.0.x stricter definitions
+    - The Node Resizer plugin is no longer required when attaching the Heat Shield to the pod, Service Module or Avionics Ring
+ - All textures have been converted to DDS format for faster loading and reduced memory usage
+ - A bright patch on the Pod Boost Protective Cover has been fixed
+ - The Heat Shield is now compatible with the new stock reentry system
+    - Ablative darkening is not used in SDHI SMS, and has been disabled
+    - Deadly Reentry is still supported, and the corresponding patch is now compatible with DRE 7.x
+ - The fairingless LV-909 engine has been updated to have similar performance to its stock counterpart
+ - The Service Module colliders have now been fixed, so that surface-attached parts like solar panels and RCS thrusters should no longer float out from the lower propulsion trunk segment
+ - The Service Module Adapter textures have been reworked to be visually consistent with the Service Module upper ring itself
+ - The Pod Boost Protective Cover and Service Module Fairings are now fully compatible with the new stock aerodynamics system
+    - This requires the latest version of the AnimatedDecouplers plugin, which provides special versions of the standard decoupler/jettison PartModules in order for the stock ModuleCargoBay to know when to update its drag occlusion behaviour
+ - Removed Ferram Aerospace Research MM patch for Pod Boost Protect Cover
+    - The latest versions of FAR now intrinsically and automatically handle drag occlusion for hollow parts, making such patches redundant
+ 
+
+Bugs/Known Issues
+ - Mk 1-2 Pod Umbilical Port is now also toggleable outside of the VAB/SPH editor scenes
+    - This is due to a limitation with the current stock KSP ModuleAnimateGeneric behaviour, but is not game-breaking.
+ - Part testing contracts are generated in Career Mode
+    - This not intended behaviour, since the SDHI SMS is intended to be tested as a complete assembled stack rather than in piecemeal
+    - A future update might include a proper contract for testing the SDHI SMS
+
+
 2.4        27 December 2014
 ---------------------------
 
