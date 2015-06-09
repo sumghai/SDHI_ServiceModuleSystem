@@ -68,7 +68,7 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
-3.0 - 10 June 2015
+3.0 - 12 June 2015
 ---------------------------
 
 WARNING: This is a potentially craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
