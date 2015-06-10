@@ -68,7 +68,7 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
-3.0 - 12 June 2015
+3.0 - 11 June 2015
 ---------------------------
 
 WARNING: This is a potentially craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
@@ -90,6 +90,7 @@ Changes / Fixes:
     - This requires the latest version of the AnimatedDecouplers plugin, which provides special versions of the standard decoupler/jettison PartModules in order for the stock ModuleCargoBay to know when to update its drag occlusion behaviour
  - Removed Ferram Aerospace Research MM patch for Pod Boost Protect Cover
     - The latest versions of FAR now intrinsically and automatically handle drag occlusion for hollow parts, making such patches redundant
+ - Fixed HotRockets! MM patch for the fairingless LV-909 engine
  
 
 Bugs/Known Issues
