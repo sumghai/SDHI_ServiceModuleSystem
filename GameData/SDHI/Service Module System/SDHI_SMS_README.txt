@@ -68,7 +68,7 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
-3.0 - 11 June 2015
+3.0.1 - 10 July 2015
 ---------------------------
 
 Changes / Fixes:
