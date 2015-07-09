@@ -77,8 +77,8 @@ Changes / Fixes:
     - Deadly Reentry support has also been updated accordingly, and the corresponding patch is now compatible with DRE 7.2.x
  -  Fallback patch for stock parachute behaviour has been updated
     - Deployment altitude increased to 1000m
-    - Minimum air pressure required to open decreased to 0.04 kPa
-    - Both values are compareable to stock parachute part performance
+    - Minimum air pressure required to open reduced to 0.04 kPa
+    - Both values are comparable to stock parachute part performance
     - Note: RealChute is still the recommended default
 
 Bugs/Known Issues
