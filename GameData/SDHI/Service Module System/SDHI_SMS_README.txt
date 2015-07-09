@@ -1,8 +1,8 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.0	(KSP 1.0.x)
+Version:	3.0.1	(KSP 1.0.4)
 
-Author: 	Robin "sumghai" Chang	grnlead@hotmail.com
+Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
 License:	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 			http://www.creativecommons.org/licenses/by-sa/4.0/
@@ -71,6 +71,27 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 3.0 - 11 June 2015
 ---------------------------
 
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.0.4
+ - Heat shield is now compatible with 1.0.4's updated thermal system
+    - Deadly Reentry support has also been updated accordingly, and the corresponding patch is now compatible with DRE 7.2.x
+ -  Fallback patch for stock parachute behaviour has been updated
+    - Deployment altitude increased to 1000m
+    - Minimum air pressure required to open decreased to 0.04 kPa
+    - Both values are compareable to stock parachute part performance
+    - Note: RealChute is still the recommended default
+
+Bugs/Known Issues
+ - Mk 1-2 Pod Umbilical Port is now also toggleable outside of the VAB/SPH editor scenes
+    - This is due to a limitation with the current stock KSP ModuleAnimateGeneric behaviour, but is not game-breaking.
+ - Part testing contracts are generated in Career Mode
+    - This not intended behaviour, since the SDHI SMS is intended to be tested as a complete assembled stack rather than in piecemeal
+    - A future update might include a proper contract for testing the SDHI SMS
+    
+    
+3.0 - 11 June 2015
+---------------------------
+
 WARNING: This is a potentially craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
 
 Changes / Fixes:
@@ -91,7 +112,6 @@ Changes / Fixes:
  - Removed Ferram Aerospace Research MM patch for Pod Boost Protect Cover
     - The latest versions of FAR now intrinsically and automatically handle drag occlusion for hollow parts, making such patches redundant
  - Fixed HotRockets! MM patch for the fairingless LV-909 engine
- 
 
 Bugs/Known Issues
  - Mk 1-2 Pod Umbilical Port is now also toggleable outside of the VAB/SPH editor scenes
