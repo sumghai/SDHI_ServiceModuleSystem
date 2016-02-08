@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.0.1	(KSP 1.0.4)
+Version:	3.1	(KSP 1.0.5)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -23,15 +23,11 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
 ===Supported Third-Party Addons===
 
- - Deadly Reentry Continued (NathanKell / Starwaster) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
+ - Deadly Reentry Continued (Starwaster) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
 
  - Ferram Aerospace Research (ferram4) - if installed, the Boost Protective Cover and Service Module Fairings will properly shield other components from aerodynamic stresses experienced during launch, reducing drag and making your rockets more efficient at getting into orbit
 
- - HotRockets! (Nazari1382) - if installed, the LV-909 variant included in the Service Module pack will display improved particle effects in its exhaust
-
- - Klockheed Martian Special Parts (dtobi / raidernick), for self-inflating floation collar functionality
-
- - Ship Manifest (Papa_Joe) and Connected Living Spaces API (codepoet) - if installed, crew can be transferred between vessels that use the parachute-equipped docking ports included in the Service Module pack
+ - Ship Manifest and Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
 
  - TAC Life Support (TaranisElsu) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
 
@@ -56,7 +52,7 @@ The parts should then be located under the SDHI/Service Module System folder
 
  - For assembly and configuration instructions, refer to http://github.com/sumghai/SDHI_ServiceModuleSystem/wiki/How-to-assemble-&-configure-a-complete-SDHI-CSM-stack
 
- - No Launch Escape Systems or Escape Towers are included in this pack; either build your own using stock parts, or try the ones from KSPX or BFGfreak's Prilla LES add-ons.
+ - A Launch Escape System is included in this pack, which has better performance than the LES from the stock game; it also comes with a built-in Solid Fuel-powered RCS thruster to allowing mid-abort course corrections
 
 
 
@@ -68,6 +64,42 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.1 - 13 February 2016
+---------------------------
+
+WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.1
+ - A dedicated Launch Escape System (LES) is now included in the parts pack
+    - The LES runs on Solid Fuel, and is capable of lifting a Mk 1-2 Pod, heat shield and Pod Boost Protective Cover up to 2.0 km in altitude, making pad aborts viable compared to the stock LES
+    - The LES also includes built-in RCS thrusters that are powered by the same Solid Fuel reserves as the main abort motor, allowing mid-abort course corrections
+ - Dropped support for HotRockets! plugin
+    - The plugin is currently not compatible/updated for KSP 1.0.5
+    - The fairingless LV-909 engine will now only have stock engine FX
+ - Dropped support for Klockheed Martian Special Parts plugin
+    - The plugin is no longer being maintained
+    - The Heat Shield's flotation collar no longer works
+ - Mk1-2 Pod Aeroshroud jettison motor thrustTransforms relocated to the sides of the shroud
+    - The thrustTransforms were previously located under the skirt of the shroud itself, which would overheat nearby parts such as the Service Module and Heat Shield
+    - Shroud texture modified to include jettison motor nozzles and warning label decals
+ - Rebalanced part costs to be in line with stock parts (courtesy Kerbas-ad-astra)
+    - Avionics Ring now has higher entry/per part cost, lower mass and adjusted CoM offset
+    - Service Module now has higher entry/per part cost, lower mass and adjusted CoM offset
+    - Service Module Adapter now has lower entry/per part cost, lower mass and lower breaking force/torque
+ - The Service Module and Avionics Rings now have built-in support for MechJeb and RemoteTech
+ - Side fairings and Mk1-2 Pod Aeroshroud colliders reworked using convex rather than concave meshes
+ - Side fairings now decouple from the Service Module itself rather than the Service Module Adapter
+ - The Service Module and Avionic Ring decoupler will wait until the umbilical has fully extended before releasing the Mk1-2 Pod
+
+Bugs/Known Issues
+ - Mk 1-2 Pod Umbilical Port is now also toggleable outside of the VAB/SPH editor scenes
+    - This is due to a limitation with the current stock KSP ModuleAnimateGeneric behaviour, but is not game-breaking.
+ - Part testing contracts are generated in Career Mode
+    - This not intended behaviour, since the SDHI SMS is intended to be tested as a complete assembled stack rather than in piecemeal
+    - A future update might include a proper contract for testing the SDHI SMS
+
+
 3.0.1 - 10 July 2015
 ---------------------------
 
