@@ -73,7 +73,7 @@ Changes / Fixes:
  - Compatibility Patch for KSP 1.1
  - A dedicated Launch Escape System (LES) is now included in the parts pack
     - The LES runs on Solid Fuel, and is capable of lifting a Mk 1-2 Pod, heat shield and Pod Boost Protective Cover up to 2.0 km in altitude, making pad aborts viable compared to the stock LES
-    - The LES also includes built-in RCS thrusters that are powered by the same Solid Fuel reserves as the main abort motor, allowing mid-abort course corrections
+    - The LES also includes built-in RCS thrusters that are powered its own independent Solid Fuel reserve, allowing mid-abort course corrections
  - Dropped support for HotRockets! plugin
     - The plugin is currently not compatible/updated for KSP 1.0.5
     - The fairingless LV-909 engine will now only have stock engine FX
