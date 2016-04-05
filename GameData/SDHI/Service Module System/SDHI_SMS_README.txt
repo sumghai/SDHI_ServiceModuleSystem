@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.1	(KSP 1.0.5)
+Version:	3.1.1-beta	(KSP 1.1 prerelease)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -62,6 +62,26 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.1.1-beta - 6 February 2016
+---------------------------
+
+WARNING: This beta release is for use with the KSP 1.1 prerelease only; do not use on KSP 1.0.5 or earlier
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.1 prerelease
+ - Added support for DennyTX's OLDD docking camera plugin to both parachute-equipped docking ports
+ - All parts now have search tags
+ - Improved heat shield texture and normal map
+ - The fairingless LV-909 "Terrier" Liquid Fuel Engine has now been deprecated
+     - This is because the stock LV-909 now includes the ability to hide the engine shroud
+     - Existing crafts will not break, but users are encouraged to switch over to using the stock engine for new crafts
+ - The fuel cell in the Service Module and Avionics Ring can now be toggled using Action Groups
+ - The Launch Escape System (LES) has been reassigned to the more sensible Advanced Landing tech tree ndoe
+     - This is a Level 6 node, which puts it on par with the other SDHI SMS parts
+ - Tweaked the ModuleAnimateGeneric parameters used to prevent the Mk 1-2 Pod Umbilical Port from being toggleable outside VAB/SPH editor scene
+     - KSP 1.1 fixed some typos in the parameters used in KSP 1.0.5
+
+
 3.1 - 13 February 2016
 ---------------------------
 
