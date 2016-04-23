@@ -65,8 +65,6 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 3.1.1 - 23 April 2016
 ---------------------------
 
-WARNING: This beta release is for use with the KSP 1.1 prerelease only; do not use on KSP 1.0.5 or earlier
-
 Changes / Fixes:
  - Compatibility Patch for KSP 1.1 prerelease
  - Added support for DennyTX's OLDD docking camera plugin to both parachute-equipped docking ports
