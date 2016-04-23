@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.1.1-beta	(KSP 1.1 prerelease)
+Version:	3.1.1	(KSP 1.1)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -62,7 +62,7 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
-3.1.1-beta - 6 February 2016
+3.1.1 - 23 April 2016
 ---------------------------
 
 WARNING: This beta release is for use with the KSP 1.1 prerelease only; do not use on KSP 1.0.5 or earlier
