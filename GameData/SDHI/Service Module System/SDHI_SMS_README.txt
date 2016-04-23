@@ -66,7 +66,7 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 ---------------------------
 
 Changes / Fixes:
- - Compatibility Patch for KSP 1.1 prerelease
+ - Compatibility Patch for KSP 1.1
  - Added support for DennyTX's OLDD docking camera plugin to both parachute-equipped docking ports
  - All parts now have search tags
  - Improved heat shield texture and normal map
