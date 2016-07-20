@@ -1,0 +1,31 @@
+{
+	"NAME": "SDHI",
+	"URL": "https://raw.githubusercontent.com/sumghai/SDHI_ServiceModuleSystem/master/GameData/SDHI/SDHI.version",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/sumghai/SDHI_ServiceModuleSystem/master/GameData/SDHI/Service%20Module%20System/SDHI_SMS_README.txt",
+	"DOWNLOAD": "https://github.com/sumghai/SDHI_ServiceModuleSystem/releases",
+	"GITHUB": {
+		"USERNAME": "sumghai",
+		"REPOSITORY": "SDHI_ServiceModuleSystem",
+		"ALLOW_PRE_RELEASE": false
+	},
+	"VERSION": {
+		"MAJOR": 3,
+		"MINOR": 2,
+		"PATCH": 0
+	},
+	"KSP_VERSION": {
+		"MAJOR": 1,
+		"MINOR": 1,
+		"PATCH": 3
+	}
+	"KSP_VERSION_MIN": {
+        	"MAJOR":1,
+        	"MINOR":1,
+        	"PATCH":0
+        },
+        "KSP_VERSION_MAX":{
+        	"MAJOR":1,
+        	"MINOR":1,
+        	"PATCH":3
+        }
+}
