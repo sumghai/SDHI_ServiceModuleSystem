@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.2	(KSP 1.1.3)
+Version:	3.2.1	(KSP 1.2.1)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -62,6 +62,20 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.2.1 - 20 November 2016
+---------------------------
+
+WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.2.1
+ - Service Module and Avionics Ring tweaks
+     - Increased reaction wheel torque from 5 to 15 kN/m
+	 - Set SAS to standalone operation, allowing crafts with inexperienced crew to have full SAS capaibility
+ - Mk1-2 Pod Aeroshroud colliders are now manifold (closed) meshes
+ - Launch Escape System (LES) pitch control motor RCS thrusters now have custom flame and sound effects
+
+	 
 3.2 - 8 July 2016
 ---------------------------
 
