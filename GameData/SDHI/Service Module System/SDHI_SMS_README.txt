@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.2.1	(KSP 1.2.1)
+Version:	3.2.2	(KSP 1.2.1)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -62,6 +62,18 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.2.2 - 22 November 2016
+---------------------------
+
+Changes / Fixes:
+ - Tweaked heat shield aerodynamics parameters so that pod stays retrograde during atmospheric reentry
+ - Moved heat shield to Thermal category and Advanced Landing tech tree node
+     - This brings it in line with the stock heat shields
+ - Added USI Life Support compatibility
+     - Eight day's worth of Supplies and Mulch storage for the standard crew of three Kerbals
+     - Storage is applied directly to stock Mk1-2 Pod
+
+
 3.2.1 - 20 November 2016
 ---------------------------
 
