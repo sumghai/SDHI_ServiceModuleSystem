@@ -70,7 +70,7 @@ Changes / Fixes:
  - Moved heat shield to Thermal category and Advanced Landing tech tree node
      - This brings it in line with the stock heat shields
  - Added USI Life Support compatibility
-     - Eight day's worth of Supplies and Mulch storage for the standard crew of three Kerbals
+     - Eight days' worth of Supplies and Mulch storage for the standard crew of three Kerbals
      - Storage is applied directly to stock Mk1-2 Pod
 
 
