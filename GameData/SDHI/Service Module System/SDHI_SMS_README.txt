@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.2.2	(KSP 1.2.1)
+Version:	3.2.3	(KSP 1.2.2)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -27,7 +27,11 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - Ship Manifest and Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
 
- - TAC Life Support (TaranisElsu / danfarnsy) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters 
+ - TAC Life Support (TaranisElsu / danfarnsy) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters
+ 
+ - USI Life Support (RoverDude) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod
+ 
+ - PEBKAC Industries: Launch Escape System (Kurld) - if installed, will automate SDHI LES and Pod Boost Protective Cover deployment/jettison
 
 
 ===How To Install===
@@ -62,6 +66,25 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.2.3 - 18 December 2016
+---------------------------
+
+WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.2.2
+ - Fixed USI Life Support MM patch to use NEEDS instead of FOR
+ - Added PEBKAC Industries: Launch Escape System compatibility
+     - This automates Launch Escape System (LES) and Pod Boost Protective Cover deployment/jettison
+	 - Boost Protective Cover will automatically jettison when pod is pointed retrograde
+- Changed LES engines to use ModuleEnginesFX in order for compatibility with PEBKAC support
+     - Added custom exhaust plume and smoke effects to LES main engines 
+	 
+Bugs/Known Issues
+ - PEBKAC support does not make use of LES pitch control motor RCS thrusters to actively point pod retrograde during abort
+     - Kurld is working on adding this feature to the plugin in a future update
+	 
+
 3.2.2 - 22 November 2016
 ---------------------------
 
