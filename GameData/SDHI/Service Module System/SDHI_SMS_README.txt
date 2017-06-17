@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.2.3	(KSP 1.2.2)
+Version:	3.2.4	(KSP 1.3)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -25,7 +25,7 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - Deadly Reentry Continued (Starwaster) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
 
- - Ship Manifest and Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
+ - Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
 
  - TAC Life Support (TaranisElsu / danfarnsy) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters
  
@@ -66,6 +66,25 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+3.2.4 - 18 June 2017
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.3
+ - Updated various MM patches to use FOR instead of FINAL
+ - Added MM patch to hide parachute-equipped IACBM docking port from VAB/SPH editor parts list if FusTek Station Parts is not installed
+     - Existing vessels that use the part are not affected
+     - FusTek Station Parts development builds also now include a special MM patch with a FOR keyword to automatically re-enable the SDHI IACBM
+ - (Pseudo-)Compatibility Patch for Ven's Stock Parts Revamp
+     - If Ven's Stock Parts Revamp is installed, the parachute-equipped SDHI Clamp-o-Tron docking port will revert to using the stock Clamp-o-Tron model rather than the revamped model
+ - Removed Ship Manifest plugin from list of Supported Third-Party Addons
+     - Ship Manifest is still compatible with SDHI SMS, but is not neccessary for Connected Living Spaces-restricted crew transfers
+	 
+Bugs/Known Issues
+ - PEBKAC support does not make use of LES pitch control motor RCS thrusters to actively point pod retrograde during abort
+     - Kurld is working on adding this feature to the plugin in a future update
+
+
 3.2.3 - 18 December 2016
 ---------------------------
 
