@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	3.2.4	(KSP 1.3)
+Version:	4.0.0	(KSP 1.4.5)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -18,20 +18,12 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
  - ModuleManager (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
 
- - Wenkel Corporation RealChute Parachute Systems (stupid_chris), for parachute functionality
+ - Wenkel Corporation RealChute Parachute Systems (stupid_chris / Starwaster), for parachute functionality
 
 
 ===Supported Third-Party Addons===
 
- - Deadly Reentry Continued (Starwaster) - if installed, the SDHI Heat Shield will protect the Mk1-2 Pod from the heat and stresses of atmospheric reentry; most other Service Module components will also consistently be burned up when deorbited
-
- - Connected Living Spaces API (Papa_Joe) - if installed, crew transfer will be realistically limited to through the parachute-equipped docking ports
-
- - TAC Life Support (TaranisElsu / danfarnsy) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod and Service Module, plus Carbon Extractors and Water Filters
- 
- - USI Life Support (RoverDude) - if installed, will add a total of Kerbin eight day's worth of life support provisions to the Mk1-2 Pod
- 
- - PEBKAC Industries: Launch Escape System (Kurld) - if installed, will automate SDHI LES and Pod Boost Protective Cover deployment/jettison
+(to be determined)
 
 
 ===How To Install===
@@ -50,7 +42,7 @@ The parts should then be located under the SDHI/Service Module System folder
 
 ===Usage===
 
- - This parts pack is specifically designed for use with the stock Mk1-2 Command Pod
+ - This parts pack is specifically designed for use with the stock Mk1-3 Command Pod
 
  - For assembly and configuration instructions, refer to http://github.com/sumghai/SDHI_ServiceModuleSystem/wiki/How-to-assemble-&-configure-a-complete-SDHI-CSM-stack
 
@@ -66,6 +58,36 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+4.0.0 - TBA
+---------------------------
+
+WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
+
+Features:
+ - All parts, models and textures rebuilt from the ground up for KSP 1.4.5
+ - New Launch Abort System uses dual-mode Solid Fuel rocket engines
+	 - Jettison motors fire during default staging to pull Boost Protective Cover away from Mk1-3 Command Pod
+	 - Abort motors can be activated by changing engine modes using Abort Action Group
+ - Localization support added
+	 - en-us included by default
+
+Changes / Fixes:
+ - Several parts renamed to be more accurate to real-life Orion/SLS spacecraft
+ - Updated Boost Protective Cover hatch cover and umbilical slot locations to be compatible with new stock Mk1-3 Command Pod
+ - Removed jettison rocket engines from Boost Protective Cover, as Launch Abort System has now been redesigned for this purpose
+ - Parachute-equipped Clamp-O-Tron docking port now uses its own partial Clamp-O-Tron model and texture
+ - Removed parachute-equipped IACBM docking port
+	 - This is due to the indeterminate status of FusTek Station Parts mod
+	 - The IACBM docking ring's dimensions also do not aesthetically fit the parts overhaul
+ - Removed batteries and fuel cell from Crew Module Adapter
+	 - Crew Module Adapter is too small to realistically accomodate these features
+	 - Service Module still includes batteries and fuel cells
+ - Service Module and standalone Crew Module Adapter now share a common decoupler ring model
+ - Service Module now has a built-in LF/LOX variant of O-10 "Puff" rocket engine, uprated to same specifications as the stock LV-909 engines
+	 - Building a CSM stack no longer requires the LV-909
+ - (more to come)
+ 
+
 3.2.4 - 18 June 2017
 ---------------------------
 
