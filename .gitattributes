@@ -22,5 +22,5 @@
 *.RTF	 diff=astextplain
 
 # Kerbal Space Program part configuration files
-*.cfg	 diff=astextplain
-*.CFG	 diff=astextplain	
+*.cfg	 text
+*.CFG	 text
