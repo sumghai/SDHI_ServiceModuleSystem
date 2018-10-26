@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	4.0.0	(KSP 1.4.5)
+Version:	4.0.0	(KSP 1.5.x)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -14,16 +14,29 @@ Disclaimer:	This parts pack is for an alpha game - Use at own risk.
 
 ===Dependencies===
 
- - AnimatedDecouplers (Starwaster), for umbilical animation on decoupling, as well as adding stock drag occlusion support for the Boost Protect Cover and Service Module side fairings
-
- - ModuleManager (sarbian), for applying patches for functionality/features provided by dependencies and third-party add-ons
-
- - Wenkel Corporation RealChute Parachute Systems (stupid_chris / Starwaster), for parachute functionality
+ - AnimatedDecouplers
+ 
+ - ModuleManager
+ 
+ - RealChute Parachute Systems
 
 
 ===Supported Third-Party Addons===
 
-(to be determined)
+ - Connected Living Spaces API
+ 
+ - Deadly Reentry
+ 
+ - MechJeb
+ 
+ - PEBKAC Industries: Launch Escape System
+ 
+ - RemoteTech
+ 
+ - TAC Life Support
+ 
+ - USI Life Support
+
 
 
 ===How To Install===
@@ -46,7 +59,7 @@ The parts should then be located under the SDHI/Service Module System folder
 
  - For assembly and configuration instructions, refer to http://github.com/sumghai/SDHI_ServiceModuleSystem/wiki/How-to-assemble-&-configure-a-complete-SDHI-CSM-stack
 
- - A Launch Escape System is included in this pack, which has better performance than the LES from the stock game; it also comes with a built-in Solid Fuel-powered RCS thruster to allowing mid-abort course corrections
+ - A Launch Abort System is included in this pack, which has better performance than the LES from the stock game; it also comes with a built-in Solid Fuel-powered RCS thruster to allow mid-abort course corrections
 
 
 
@@ -58,13 +71,13 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
-4.0.0 - TBA
+4.0.0 - 27 October 2018
 ---------------------------
 
 WARNING: This is a craft and save-breaking update; it is recommended you abort / recover existing SDHI craft before installing this update
 
 Features:
- - All parts, models and textures rebuilt from the ground up for KSP 1.4.5
+ - All parts, models and textures rebuilt from the ground up for KSP 1.5.x
  - New Launch Abort System uses dual-mode Solid Fuel rocket engines
 	 - Jettison motors fire during default staging to pull Boost Protective Cover away from Mk1-3 Command Pod
 	 - Abort motors can be activated by changing engine modes using Abort Action Group
@@ -74,18 +87,19 @@ Features:
 Changes / Fixes:
  - Several parts renamed to be more accurate to real-life Orion/SLS spacecraft
  - Updated Boost Protective Cover hatch cover and umbilical slot locations to be compatible with new stock Mk1-3 Command Pod
- - Removed jettison rocket engines from Boost Protective Cover, as Launch Abort System has now been redesigned for this purpose
+ - Removed jettison rocket engines from Boost Protective Cover, as Launch Abort System has now dedicated jettison motors
  - Parachute-equipped Clamp-O-Tron docking port now uses its own partial Clamp-O-Tron model and texture
  - Removed parachute-equipped IACBM docking port
 	 - This is due to the indeterminate status of FusTek Station Parts mod
 	 - The IACBM docking ring's dimensions also do not aesthetically fit the parts overhaul
+ - Service Module now split into two parts
+	 - The Crew Module Adapter (formerly the Avionics Ring), a decoupler compatible with the SDHI 2.5m Heat Shield
+	 - The Service Module, a propulsion trunk with an integrated and uprated LF/LOX variant of O-10 "Puff" rocket engine
+	 - Building the a CSM stack no longer requires the LV-909
  - Removed batteries and fuel cell from Crew Module Adapter
 	 - Crew Module Adapter is too small to realistically accomodate these features
 	 - Service Module still includes batteries and fuel cells
- - Service Module and standalone Crew Module Adapter now share a common decoupler ring model
- - Service Module now has a built-in LF/LOX variant of O-10 "Puff" rocket engine, uprated to same specifications as the stock LV-909 engines
-	 - Building a CSM stack no longer requires the LV-909
- - (more to come)
+ - Removed support for a number of outdated third-party add-ons
  
 
 3.2.4 - 18 June 2017
