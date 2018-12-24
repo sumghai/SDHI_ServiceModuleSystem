@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	4.0.0	(KSP 1.5.x)
+Version:	4.0.1	(KSP 1.6.x)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -71,6 +71,14 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+4.0.1 - 25 December 2018
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.6.x
+ - Tweaked textures to better match stock parts
+ 
+
 4.0.0 - 27 October 2018
 ---------------------------
 
