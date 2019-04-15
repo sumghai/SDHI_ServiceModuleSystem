@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	4.0.1	(KSP 1.6.x)
+Version:	4.0.2	(KSP 1.7.x)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -71,6 +71,14 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+4.0.2 - 15 April 2019
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.7.x
+ - Updated Service Module engine model, textures and emissive animations to match the new stock O-10 "Puff" rocket engine design
+
+
 4.0.1 - 25 December 2018
 ---------------------------
 
