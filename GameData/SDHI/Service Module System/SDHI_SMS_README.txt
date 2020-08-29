@@ -1,13 +1,13 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	4.0.2	(KSP 1.7.x)
+Version:	4.0.3	(KSP 1.10.x)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
 License:	Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 			http://www.creativecommons.org/licenses/by-sa/4.0/
 
-Disclaimer:	This parts pack is for an alpha game - Use at own risk. 
+Disclaimer:	This parts pack is released as-is - Use at own risk. 
 			If your computer blows up, it's not my problem.
 
 
@@ -71,6 +71,15 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+4.0.3 - 29 August 2020
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.10.x
+ - Added ReStock compatibility
+    - If ReStock is installed, the game will be forced to use the original Mk1-3 Command Pod, to ensure compatibility with the SDHI SMS Umbilical Port
+
+
 4.0.2 - 15 April 2019
 ---------------------------
 
