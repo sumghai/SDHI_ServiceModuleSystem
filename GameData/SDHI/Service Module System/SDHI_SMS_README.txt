@@ -1,6 +1,6 @@
 Sum Dum Heavy Industries Service Module System - Mod Parts Pack
 
-Version:	4.0.3	(KSP 1.10.x)
+Version:	4.0.4	(KSP 1.10.x)
 
 Author: 	Robin "sumghai" Chang	sumdumghai@gmail.com
 
@@ -71,6 +71,14 @@ If you have other SDHI part packs you wish to keep, just remove the Service Modu
 
 
 ===Release Notes===
+4.0.4 - 11 October 2020
+---------------------------
+
+Changes / Fixes:
+ - Compatibility Patch for KSP 1.10.x
+ - Fixed MechJeb compatibility patch to prevent duplicate MJ modules or local settings on the Crew Module Adapter
+
+
 4.0.3 - 29 August 2020
 ---------------------------
 
